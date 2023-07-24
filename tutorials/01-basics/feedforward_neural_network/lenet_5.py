@@ -41,7 +41,6 @@ for layer in model.net:
 
 model= LeNet5().to(device)
 # Hyper-parameters 
-hidden_size = 500
 num_classes = 10
 num_epochs = 5
 batch_size = 100
